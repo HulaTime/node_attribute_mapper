@@ -1,0 +1,42 @@
+{
+  "name": "attribute-mapper",
+  "version": "1.0.0",
+  "description": "npm module to quickly replace attribute names and nested attribute names to a new object with specified replacement attribute names",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxProvin/node_attribute_mapper.git"
+  },
+  "keywords": [
+    "node",
+    "attribute",
+    "mapper",
+    "map",
+    "swap",
+    "attr",
+    "change",
+    "transform",
+    "transformer"
+  ],
+  "author": "Max Provin",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/MaxProvin/node_attribute_mapper/issues"
+  },
+  "homepage": "https://github.com/MaxProvin/node_attribute_mapper#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^4.0.1",
+    "ramda": "^0.25.0",
+    "rewire": "^2.5.2",
+    "sinon": "^4.0.2",
+    "sinon-chai": "^2.14.0"
+  }
+}
